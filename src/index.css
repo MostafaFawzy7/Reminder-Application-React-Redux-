@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  margin: 20px auto;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+  background-color: #000;
+  border-radius: 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.form-control {
+  margin:15px 0px;
+  width: 100%;
+}
+
+.btn {
+  margin: 5px 0px;
+}
+
+.list-group-item {
+  margin: 5px 0px;
+}
+
+.list-group-item .removeReminder {
+  float: right;
+  font-size: 20px;
+}
+
+.list-group-item .reminderInfo {
+  float: left;
+  text-align: left;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker-wrapper .form-control {
+  cursor: pointer;
 }
